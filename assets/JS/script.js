@@ -10,8 +10,8 @@ let eliminar = document.getElementsByClassName('eliminar');
 
 const tareas = [ 
     { ID: Date.now(), Tarea: 'Hacer mercado', Completada: false },
-    { ID: Date.now(), Tarea: 'Estudiar para la prueba', Completada: false },
-    { ID: Date.now(), Tarea: 'Pasear a Bobby', Completada: false }
+    { ID: Date.now() + 2, Tarea: 'Estudiar para la prueba', Completada: false },
+    { ID: Date.now() + 3, Tarea: 'Pasear a Bobby', Completada: false }
  ];
 
 let Total = Number(total.textContent)
