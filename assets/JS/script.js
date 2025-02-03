@@ -35,7 +35,7 @@ function render() {
     renderTask = () => { // Renderiza las tareas en el DOM
         for (element of tareas) {
             html += `<div data-id ="${element.ID}"> ${element.Tarea}
-          <input class="checkbox" type="checkbox" ${element.Completada ? 'checked' : 'unchecked'}/>
+          <input class="checkbox" type="checkbox" ${element.Completada ? 'checked' : ''}/>
           <button class="borrar">X</button>
         </div>`
         }
