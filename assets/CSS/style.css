@@ -1,9 +1,20 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(234, 234, 234);
 }
 
 .info {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.borrar {
+    color: red;
+    border: none;
 }
